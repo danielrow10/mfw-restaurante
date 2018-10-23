@@ -9,23 +9,24 @@
 	<link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-<!-- Navbar -->
+<!-- BEGIN NAV -->
 <nav class="navbar navbar-default">
 	<div class="container-fluid">
-		<div class="navbar-header"><button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse">
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse">
 				<span class="icon-bar"></span>
 				<span class="icon-bar"></span>
 				<span class="icon-bar"></span>
 				<span class="icon-bar"></span>
 			</button>
-				<a href="" class="navbar-brand">
+				<a href="#" class="navbar-brand">
 					<img src="img/name-01.png" alt="logo" class="logo">
 				</a>
 		</div>
-		<collapse class="navbar-collapse" id="navbar-collapse">
+		<div class="navbar-collapse collapse" id="navbar-collapse">
 			<ul class="nav navbar-nav navbar-right">
 				<li class="active">
-					<a href="">Home<span class="sr-only">(current)</span></a>
+					<a href="#">Home<span class="sr-only">(current)</span></a>
 				</li>
 					<li><a href="#our_story">Our Story</a></li>
 					<li><a href="#review">Review</a></li>
@@ -33,12 +34,11 @@
 					<li><a href="#contact">Contact Us</a></li>
 				</li>
 			</ul>
-		</collapse>
+		</div>
 	</div>
 </nav>
-<!-- end of nav -->
-
-<!-- Begin Carousel -->
+<!-- NAV ENDS -->
+<!-- BEGIN CAROUSEL -->
 <div class="container-fluid wrap">
 	<div id="myCarousel" class="carousel slide" data-ride="carousel">
 		<ol class="carousel-indicators">
@@ -47,21 +47,19 @@
 			<li data-target="myCarousel" data-slide-to="2"></li>
 		</ol>
 		<div class="carousel-inner" role="listbox">
-			<div class="item active">
-				<img src="img/wood-2.png" alt="logo">
+			<div class="item main_img1 active">
 				<div class="carousel-caption">
+					<img src="img/logo-01.png" alt="logo" class="img-responsive main_logo active center-block">
 				</div>
 			</div>
-			<div class="item">
-				<img src="img/restaurant-2.jpg" alt="restaurant">
+			<div class="item main_img2">
 				<div class="carousel-caption">
 					<h1>Eat Local</h1>
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil eum pariatur impedit?</p>
 					<a href="#" class="btn btn-lg btn-primary" role="button">Learn More</a>
 				</div>
 			</div>
-			<div class="item">
-				<img src="img/farm-2.jpg" alt"farm">
+			<div class="item main_img3">
 				<div class="carousel-caption">
 					<h1>From Farm to Table</h1>
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam sapiente autem quae.</p>
@@ -79,7 +77,35 @@
 		</a>
 	</div>
 </div>
-	<!-- javascript	 -->
+<!-- CAROUSEL ENDS -->
+<!-- BEGIN OUR STORY -->
+<div id="our_story" class="container-fluid">
+	<div class="row">
+		<div class="col-sm-4 col-xs-offset-1">
+			<h1>Our Story</h1>
+			<h3>One Man. One Dream.</h3>
+		</div>
+		<div class="col-sm-5 col-sm-offset-1">
+			<h2 class="story-year">1982</h2>
+			<p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore perspiciatis explicabo ab consequuntur molestias minima voluptatum earum necessitatibus ut expedita.</p>
+			<p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae perferendis eius corporis magni, porro deserunt sapiente dolores provident adipisci odit.</p>
+			<p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam, rem. Facere ipsam doloremque ab dolorum fuga mollitia, eius voluptas! Dolorum?</p>
+			<p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic facilis corrupti accusamus unde praesentium reprehenderit ea excepturi aliquid, voluptas temporibus.</p>
+		</div>
+	</div>
+</div>
+<!-- OUR STORY ENDS -->
+<!-- BEGIN REViEW -->
+<div id="review" class="container-fluid">
+	<div class="row text-center">
+		<div class="col-sm-8 center">
+			<h1>Fresno Bee</h1>
+			<p>"The freshest and best ingredients come together to make some of the best food I have ever eaten. You can really taste the Central Valley in every bit"</p>
+		</div>
+	</div>
+</div>
+
+	<!-- JAVASCRIPT	-->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
 </body>
